@@ -53,6 +53,7 @@ spec:
         values:
           name: ${{ parameters.name }}
           owner: ${{ parameters.owner }}
+          owner: ${{ parameters.projectname }}
 
     - id: fetch-docs
       name: Fetch Docs
